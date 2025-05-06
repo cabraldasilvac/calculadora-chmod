@@ -1,6 +1,6 @@
 # Calculadora Chmod
 
-![Imagem da Calculadora Chmod 1](./images/screeshot-1.png)
+## Calculador de código de permissão para arquivos e pastas do computador.
 
 <hr>
 
@@ -9,6 +9,13 @@ Uma ferramenta web simples e intuitiva para converter permissões de arquivos Li
 ## Visão Geral
 
 Este projeto consiste em uma página web que permite aos usuários selecionar facilmente as permissões desejadas para Proprietário, Grupo e Outros através de checkboxes. À medida que as permissões são selecionadas, o código Chmod numérico correspondente é gerado e exibido em tempo real.
+
+Para saber mais sobre o Chmod sugiro a leitura - [Wikipedia](https://en.wikipedia.org/wiki/Chmod)
+e consulta no manual do seu computador.
+
+```bash
+man chmod
+```
 
 ## Funcionalidades
 
@@ -19,9 +26,7 @@ Este projeto consiste em uma página web que permite aos usuários selecionar fa
 
 ## Como Usar
 
-[Para clonar o projeto](https://github.com/cabraldasilvac/calculadora-chmod.git)
-
-1. **Download ou Clone:** Faça o download dos arquivos `index.html`, `style.css` e `script.js` ou clone este repositório para o seu computador.
+1. **Download ou Clone:** Faça o download dos arquivos `index.html`, `style.css` e `script.js` ou [clone este repositório para o seu computador.](https://github.com/cabraldasilvac/calculadora-chmod.git)
 2. **Abrir no Navegador:** Abra o arquivo `index.html` em seu navegador web preferido.
 3. **Selecionar Permissões:** Marque as caixas de seleção correspondentes às permissões que você deseja conceder para Proprietário, Grupo e Outros.
    - **Ler (r):** Permite visualizar o conteúdo do arquivo. (Valor: 4)
@@ -43,13 +48,13 @@ Basta marcar as caixas correspondentes, e o código Chmod `764` será exibido.
 
 ![Tree](./images/img-tree.png)
 
-## Tecnologias Utilizadas
+## 🔨- Tecnologias Utilizadas
 
 - HTML
 - CSS
 - JavaScript
 
-## Testes (Para Desenvolvedores)
+## 🧪 - Testes (Para Desenvolvedores)
 
 Este projeto inclui testes unitários utilizando o framework Jest para garantir a funcionalidade correta da lógica JavaScript. Os testes foram configurados para rodar em um ambiente de navegador simulado (jsdom) para interagir com o DOM virtual.
 
@@ -75,21 +80,31 @@ Este projeto inclui testes unitários utilizando o framework Jest para garantir 
 
 Todos os testes devem passar para garantir que a lógica da calculadora está funcionando conforme o esperado. Os testes verificam a função `updateChmod` diretamente, simulando o estado dos checkboxes e verificando se o código Chmod resultante é calculado corretamente.
 
-## Copyright
-
-&copy; 2025 WMS - Consultoria e Desenvolvimento de Software
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para relatar bugs ou sugerir melhorias. Pull requests também são encorajados.
 
-**_Leia:_** [LICENSE.md](https://github.com/cabraldasilvac/calculadora-chmod/blob/main/CONTRIBUTING.md) o arquivo para mais detalhes..
+**_Leia:_** [CONTRIBUTING.md](https://github.com/cabraldasilvac/calculadora-chmod/blob/main/CONTRIBUTING.md) o arquivo para mais detalhes..
 
 ## Licença
 
-## Este projeto está sob a licença MIT. Leia: [LICENSE.md](https://github.com/cabraldasilvac/calculadora-chmod/blob/main/LICENSE.md) o arquivo para mais detalhes..
+## Este projeto está sob a licença MIT.
 
-### screeshots
+**_Leia:_** [LICENSE.md](https://github.com/cabraldasilvac/calculadora-chmod/blob/main/LICENSE.md) o arquivo para mais detalhes..
+
+<hr>
+
+## Copyright
+
+&copy; 2025 WMS - Consultoria e Desenvolvimento de Software
+
+<hr>
+
+### Screenshots
+
+<hr>
+
+![Imagem da Calculadora Chmod 1](./images/screeshot-1.png)
 
 <hr>
 
@@ -102,3 +117,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para rela
 <hr>
 
 ![Imagem da estrutura do diretório](./images/img-tree.png)
+
+<hr>
