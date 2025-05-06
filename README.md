@@ -2,11 +2,7 @@
 
 ![Imagem da Calculadora Chmod 1](./images/screeshot-1.png)
 
-#
-
-![Imagem da Calculadora Chmod 2](./images/screeshot-2.png)
-
-#
+<hr>
 
 Uma ferramenta web simples e intuitiva para converter permissões de arquivos Linux entre a representação numérica (chmod) e a representação simbólica (leitura, escrita, execução) para Proprietário, Grupo e Outros.
 
@@ -92,3 +88,17 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para rela
 ## Licença
 
 ## Este projeto está sob a licença MIT. Leia: [LICENSE.md](https://github.com/cabraldasilvac/calculadora-chmod/blob/main/LICENSE.md) o arquivo para mais detalhes..
+
+### screeshots
+
+<hr>
+
+![Imagem da Calculadora Chmod 2](./images/screeshot-2.png)
+
+<hr>
+
+![Imagem do teste](./images/img-test.png)
+
+<hr>
+
+![Imagem da estrutura do diretório](./images/img-tree.png)
