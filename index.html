@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Chmod</title>
+    <link rel="shortcut icon" type="image" href="./images/wms.ico"/>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora Chmod</h1>
+
+      <div class="permissions">
+        <h2>Proprietário</h2>
+        <label><input type="checkbox" id="owner-read" /> Ler</label>
+        <label><input type="checkbox" id="owner-write" /> Escrever</label>
+        <label><input type="checkbox" id="owner-execute" /> Executar</label>
+      </div>
+
+      <div class="permissions">
+        <h2>Grupo</h2>
+        <label><input type="checkbox" id="group-read" /> Ler</label>
+        <label><input type="checkbox" id="group-write" /> Escrever</label>
+        <label><input type="checkbox" id="group-execute" /> Executar</label>
+      </div>
+
+      <div class="permissions">
+        <h2>Outros</h2>
+        <label><input type="checkbox" id="others-read" /> Ler</label>
+        <label><input type="checkbox" id="others-write" /> Escrever</label>
+        <label><input type="checkbox" id="others-execute" /> Executar</label>
+      </div>
+
+      <div class="result">
+        <label for="chmod-value">Código Chmod:</label>
+        <input type="text" id="chmod-value" value="000" readonly />
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 wms Consultoria e Desenvolvimento de Software</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
