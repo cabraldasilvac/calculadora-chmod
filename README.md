@@ -41,7 +41,7 @@ Basta marcar as caixas correspondentes, e o código Chmod `764` será exibido.
 
 ## Estrutura do Projeto
 
-[Tree](./images/img-tree.png)
+![Tree](./images/img-tree.png)
 
 ## Tecnologias Utilizadas
 
@@ -93,7 +93,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para rela
 
 <hr>
 
-![Imagem da Calculadora Chmod 2](./images/screeshot-2.png)
+![Imagem da Calculadora Chmod2](./images/screenshot-2.png)
 
 <hr>
 
